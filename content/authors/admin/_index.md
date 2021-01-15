@@ -19,7 +19,10 @@ bio: My research interests include deep learning for patient outcome prediction,
 # Interests to show in About widget
 interests:
 - Deep Learning
+- Graph Neural Networks
+- Electronic Health Records
 - Healthcare
+- Medicine
 
 # Education to show in About widget
 education:
