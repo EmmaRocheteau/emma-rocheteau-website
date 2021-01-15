@@ -88,7 +88,7 @@ show_related = {book = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "ecr38[at]cam.ac.uk"
+email = "ecr38@cam.ac.uk"
 phone = ""
 
 # Address
