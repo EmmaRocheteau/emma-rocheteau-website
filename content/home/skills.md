@@ -17,10 +17,6 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description:
-  icon: python
-  icon_pack: fab
-  name: Python Programming
-- description:
   icon: laptop-code
   icon_pack: fas
   name: Deep Learning
@@ -28,6 +24,15 @@ feature:
   icon: stethoscope
   icon_pack: fas
   name: Clinical Medicine
+- description:
+  icon: python
+  icon_pack: fab
+  name: Python
+- description:
+  icon: database
+  icon_pack: fas
+  name: SQL
+
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
