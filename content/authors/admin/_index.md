@@ -76,4 +76,4 @@ I am a PhD student working on machine learning problems for healthcare, supervis
 
 I have previously completed parts IA and IB of the pre-clinical medical and veterinary sciences tripos, part IIA of the engineering tripos and one year of clinical medicine. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}CV{{< /staticref >}}.

@@ -19,4 +19,4 @@ For example, for time series processing in Electronic Health Records (EHRs), I u
 
 I am also working on using graph neural networks to link the experiences of similar patients. The rationale is that when clinicians make decisions they will typically lean on their past experience, especially if they are dealing with a rare disease.
 
-I would be happy and open to discussing collaboration opportunities on similar topics – just send me an email!
+I would be happy to discuss collaboration opportunities on similar topics – just send me an email!
