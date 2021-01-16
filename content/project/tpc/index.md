@@ -7,7 +7,7 @@ tags:
 date: "2021-01-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://github.com/EmmaRocheteau/TPC-LoS-prediction"
 
 image:
   caption: 
