@@ -6,6 +6,12 @@ authors:
 - Petar Veličković
 - Nic Lane
 - Pietro Liò
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- ""
+- ""
+- ""
 date: "2021-01-11T00:00:00Z"
 doi: ""
 
