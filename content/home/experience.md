@@ -25,10 +25,9 @@ experience:
   - title: Academic Director
     company: Institute for Medical AI
     company_url: 'https://www.instituteformedicalai.org/'
-    location: 
     date_start: '2020-08-01'
-    date_end: ''
-    description: Institute dedicated to advancing patient-centered care with medical AI.
+    description: |2-
+        Institute dedicated to advancing patient-centered care with medical AI.
   - title: Researcher Intern
     company: Microsoft Research
     company_url: 'https://www.microsoft.com/en-us/research/theme/health-intelligence/'
@@ -43,12 +42,13 @@ experience:
     location: Cambridge
     date_start: '2018-07-01'
     date_end: '2018-09-01'
-    description: 8-week internship involving feature engineering mouse/keyboard data to identify financial fraud using a random forest classifier.
+    description: |2-
+        8-week internship involving feature engineering mouse/keyboard data to identify financial fraud using a random forest classifier.
   - title: Physiology Supervisor
     company: University of Cambridge
     company_url: 'https://www.pdn.cam.ac.uk/'
     location: Cambridge
     date_start: '2017-01-01'
-    date_end: ''
-    description: I teach 11 first year undergraduate medical students cardiovascular, respiratory, renal, digestion, endocrinology and nerve and muscle electrophysiology. My role as supervisor involves tutorials each week, plus marking work (mainly essays) and answering any questions the students may have.
+    description: |2-
+        I teach 11 first year undergraduate medical students cardiovascular, respiratory, renal, digestion, endocrinology and nerve and muscle electrophysiology. My role as supervisor involves tutorials each week, plus marking work (mainly essays) and answering any questions the students may have.
 ---
