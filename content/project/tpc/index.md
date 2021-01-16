@@ -14,10 +14,6 @@ image:
   focal_point: Smart
 
 links:
-- icon: github
-  icon_pack: fab
-  name: GitHub
-  url: https://github.com/EmmaRocheteau/TPC-LoS-prediction
 url_code: ""
 url_pdf: ""
 url_slides: ""
