@@ -6,7 +6,7 @@ event_url: https://www.eventbrite.co.uk/e/cambridge-centre-for-ai-in-medicines-i
 
 location: Online
 
-summary: My talk was chosen as part of the PhD Student Showcase
+summary: CCAIM PhD Student Showcase
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
