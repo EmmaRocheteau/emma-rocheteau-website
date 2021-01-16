@@ -1,7 +1,7 @@
 ---
-# An instance of the Pages widget.
+# An instance of the Blank widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: blank
 
 # This file represents a page section.
 headless: true
@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: 'Research Interests'
-subtitle:
+# Section title
+title: Research Interests
 ---
 
 Until now my work has focused on predicting patient outcomes in the intensive care unit. I design deep learning models in a way that takes advantage of the clinical approach to decision making.
