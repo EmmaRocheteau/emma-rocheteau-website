@@ -128,13 +128,13 @@ TPC | 0.918±0.002 | 0.713±0.007 | 2.28±0.07 | 32.4±1.2 | 42.0±1.2 | 0.19±0
 
 Note that soon I am planning to also implement a version of the TPC model that can simply be plugged into the Harutyunyan et al. pipeline.
 
-Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
+Clone the [GitHub repository](https://github.com/EmmaRocheteau/TPC-LoS-prediction).
 
 ### eICU
 
-1) To run the sql files you must have the eICU database set up: https://physionet.org/content/eicu-crd/2.0/. 
+1) To run the sql files you must have the [eICU database](https://physionet.org/content/eicu-crd/2.0/) set up. 
 
-2) Follow the instructions: https://eicu-crd.mit.edu/tutorials/install_eicu_locally/ to ensure the correct connection configuration. 
+2) Follow the [instructions](https://eicu-crd.mit.edu/tutorials/install_eicu_locally/) to ensure the correct connection configuration. 
 
 3) Replace the eICU_path in `paths.json` to a convenient location in your computer, and do the same for `eICU_preprocessing/create_all_tables.sql` using find and replace for 
 `'/Users/emmarocheteau/PycharmProjects/TPC-LoS-prediction/eICU_data/'`. Leave the extra '/' at the end.
@@ -167,11 +167,11 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
     
 ### MIMIC-IV
 
-1) To run the sql files you must have the MIMIC-IV database set up: https://physionet.org/content/mimiciv/0.4/. 
+1) To run the sql files you must have the [MIMIC-IV database](https://physionet.org/content/mimiciv/0.4/) set up. 
 
-2) The official recommended way to access MIMIC-IV is via BigQuery: https://mimic-iv.mit.edu/docs/access/bigquery/. Personally I did not find it easy to store the necessary views and there is a 1GB size limit on the data you can download in the free tier, which is less than I am using here (the largest file to extract is timeseries.csv which is 4.49GB). However if you do wish to use BigQuery, note that you will have to make minor modifications to the code e.g. you would need to replace a reference to the table `patients` with `physionet-data.mimic_core.patients`. 
+2) The official recommended way to access MIMIC-IV is via [BigQuery](https://mimic-iv.mit.edu/docs/access/bigquery/). Personally I did not find it easy to store the necessary views and there is a 1GB size limit on the data you can download in the free tier, which is less than I am using here (the largest file to extract is timeseries.csv which is 4.49GB). However if you do wish to use BigQuery, note that you will have to make minor modifications to the code e.g. you would need to replace a reference to the table `patients` with `physionet-data.mimic_core.patients`. 
     
-    Alternatively, you can follow instructions to set up the full database. The instructions for the previous version of MIMIC - MIMIC-III are here: https://mimic.physionet.org/tutorials/install-mimic-locally-ubuntu/ for unix systems or: https://mimic.physionet.org/tutorials/install-mimic-locally-windows/ for windows. You will need to change `mimiciii` schema to `mimiciv` and use the files in: https://github.com/EmmaRocheteau/MIMIC-IV-Postgres in place of the files in: https://github.com/MIT-LCP/mimic-code/tree/master/buildmimic/postgres (referenced in the instructions). Additionally you may find this resource helpful: https://github.com/MIT-LCP/mimic-iv/tree/master/buildmimic/postgres which is still in the process of being updated (as of November 2020).
+    Alternatively, you can follow instructions to set up the full database. The instructions for the previous version of MIMIC - MIMIC-III are [here](https://mimic.physionet.org/tutorials/install-mimic-locally-ubuntu/) for unix systems or [here](https://mimic.physionet.org/tutorials/install-mimic-locally-windows/) for windows. You will need to change `mimiciii` schema to `mimiciv` and use the files [here](https://github.com/EmmaRocheteau/MIMIC-IV-Postgres) in place of the files [here](https://github.com/MIT-LCP/mimic-code/tree/master/buildmimic/postgres) (referenced in the instructions). Additionally you may find this [resource](https://github.com/MIT-LCP/mimic-iv/tree/master/buildmimic/postgres) helpful, which is still in the process of being updated (as of November 2020).
 
 3) Once you have a database connection, replace the MIMIC_path in `paths.json` to a convenient location in your computer, and do the same for `MIMIC_preprocessing/create_all_tables.sql` using find and replace for 
 `'/Users/emmarocheteau/PycharmProjects/TPC-LoS-prediction/MIMIC_data/'`. Leave the extra '/' at the end.
@@ -218,7 +218,7 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
     
     Each experiment you run will create a directory within models/experiments. The naming of the directory is based on 
     the date and time that you ran the experiment (to ensure that there are no name clashes). The experiments are saved 
-    in the standard trixi format: https://trixi.readthedocs.io/en/latest/_api/trixi.experiment.html.
+    in the [standard trixi format] (https://trixi.readthedocs.io/en/latest/_api/trixi.experiment.html).
     
 2) The hyperparameter searches can be replicated by running:
 

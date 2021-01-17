@@ -36,13 +36,13 @@ Recent work on predicting patient outcomes in the Intensive Care Unit (ICU) has 
 
 ## Pre-Processing Instructions
 
-Clone the GitHub repository: https://github.com/EmmaRocheteau/eICU-GNN-LSTM
+Clone the [GitHub repository](https://github.com/EmmaRocheteau/eICU-GNN-LSTM).
 
 ### eICU Pre-Processing
 
-1) To run the sql files you must have the eICU database set up: https://physionet.org/content/eicu-crd/2.0/. 
+1) To run the sql files you must have the [eICU database](https://physionet.org/content/eicu-crd/2.0/) set up. 
 
-2) Follow the instructions: https://eicu-crd.mit.edu/tutorials/install_eicu_locally/ to ensure the correct connection configuration. 
+2) Follow the [instructions](https://eicu-crd.mit.edu/tutorials/install_eicu_locally/) to ensure the correct connection configuration. 
 
 3) Replace the eICU_path in `paths.json` to a convenient location in your computer, and do the same for `eICU_preprocessing/create_all_tables.sql` using find and replace for 
 `'/Users/emmarocheteau/PycharmProjects/eICU-GNN-LSTM/eICU_data/'`. Leave the extra '/' at the end.
@@ -88,8 +88,7 @@ python3 -m graph_construction.create_bert_graph --k 3 --mode k_closest
 ```
 
 
-Alternatively, you can request to download our graphs using this link:
-https://drive.google.com/drive/folders/1yWNLhGOTPhu6mxJRjKCgKRJCJjuToBS4?usp=sharing
+Alternatively, you can request to download our graphs using this [link](https://drive.google.com/drive/folders/1yWNLhGOTPhu6mxJRjKCgKRJCJjuToBS4?usp=sharing).
 
 ## Training the ML Models
 
