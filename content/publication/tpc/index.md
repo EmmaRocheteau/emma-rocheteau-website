@@ -35,8 +35,8 @@ links:
   url: https://arxiv.org/abs/2007.09483
 url_pdf: https://arxiv.org/pdf/2007.09483.pdf
 url_code: https://github.com/EmmaRocheteau/TPC-LoS-prediction
-url_poster: https://drive.google.com/file/d/1EQWytO-rkTYwZDcdeYZMpYFuPEAUmk2E/view?usp=sharing
-url_slides: https://drive.google.com/file/d/1HynubvxEjZSBkPbZNbeY-pvh6-i1xbmu/view?usp=sharing
+url_poster: "media/tpc_poster.pdf"
+url_slides: "media/tpc_slides.pdf"
 url_video: https://www.youtube.com/watch?v=O4qo95xETVQ&feature=youtu.be
 
 # Featured image
