@@ -218,7 +218,7 @@ Clone the [GitHub repository](https://github.com/EmmaRocheteau/TPC-LoS-predictio
     
     Each experiment you run will create a directory within models/experiments. The naming of the directory is based on 
     the date and time that you ran the experiment (to ensure that there are no name clashes). The experiments are saved 
-    in the [standard trixi format] (https://trixi.readthedocs.io/en/latest/_api/trixi.experiment.html).
+    in the [standard trixi format](https://trixi.readthedocs.io/en/latest/_api/trixi.experiment.html).
     
 2) The hyperparameter searches can be replicated by running:
 
