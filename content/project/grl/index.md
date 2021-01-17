@@ -1,5 +1,5 @@
 ---
-title: Predicting Patient Outcomes with LSTM-GNN
+title: LSTM-GNN
 summary: The LSTM-GNN model uses similarity between patients to obtain a better representation of the diagnosis information in the Electronic Health Record.
 tags:
 - Deep Learning

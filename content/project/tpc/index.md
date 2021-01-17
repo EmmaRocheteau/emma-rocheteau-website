@@ -1,5 +1,5 @@
 ---
-title: Patient Outcome Prediction with TPC
+title: TPC
 summary: A model for processing time series in Electronic Health Records. It outperforms the LSTM and Transformer models on MIMIC-IV and eICU.
 tags:
 - Deep Learning
