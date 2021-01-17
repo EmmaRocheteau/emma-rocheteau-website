@@ -1,5 +1,5 @@
 ---
-title: Temporal Pointwise Convolution
+title: Patient Outcome Prediction with TPC
 summary: A model for processing time series in Electronic Health Records. It outperforms the LSTM and Transformer models on MIMIC-IV and eICU.
 tags:
 - Deep Learning
@@ -30,8 +30,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: 
 ---
-Patient Outcome Prediction with TPC Networks
-===============================
 
 ## Motivation
 The pressure of ever-increasing patient demand and budget restrictions make hospital bed management a daily challenge for clinical staff. Most critical is the efficient allocation of resource-heavy Intensive Care Unit (ICU) beds to the patients who need life support. Central to solving this problem is knowing for how long the current set of ICU patients are likely to stay in the unit. In this work, we propose a new deep learning model based on the combination of temporal convolution and pointwise (1x1) convolution, to solve the length of stay prediction task on the eICU and MIMIC-IV critical care datasets. The model – which we refer to as Temporal Pointwise Convolution (TPC) – is specifically designed to mitigate common challenges with Electronic Health Records, such as skewness, irregular sampling and missing data. In doing so, we have achieved significant performance benefits of 18-68% (metric and dataset dependent) over the commonly used Long-Short Term Memory (LSTM) network, and the multi-head self-attention network known as the Transformer. By adding mortality prediction as a side-task, we can improve performance further still, resulting in a mean absolute deviation of 1.55 days (eICU) and 2.28 days (MIMIC-IV) on predicting remaining length of stay.
@@ -143,13 +141,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
 
 4) In your terminal, navigate to the project directory, then type the following commands:
 
-    ```
+    ```sql
     psql 'dbname=eicu user=eicu options=--search_path=eicu'
     ```
     
     Inside the psql console:
     
-    ```
+    ```sql
     \i eICU_preprocessing/create_all_tables.sql
     ```
     
@@ -157,13 +155,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
     
     To quit the psql console:
     
-    ```
+    ```sql
     \q
     ```
     
 5) Then run the pre-processing scripts in your terminal. This will need to run overnight:
 
-    ```
+    ```python
     python3 -m eICU_preprocessing.run_all_preprocessing
     ```
     
@@ -180,13 +178,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
 
 4) If you have set up the database on your local computer, you can navigate to the project directory in your terminal, then type the following commands:
 
-    ```
+    ```sql
     psql 'dbname=mimic user=mimicuser options=--search_path=mimiciv'
     ```
     
     Inside the psql console:
     
-    ```
+    ```sql
     \i MIMIC_preprocessing/create_all_tables.sql
     ```
     
@@ -194,13 +192,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
     
     To quit the psql console:
     
-    ```
+    ```sql
     \q
     ```
     
 5) Then run the pre-processing scripts in your terminal. This will need to run overnight:
 
-    ```
+    ```python
     python3 -m MIMIC_preprocessing.run_all_preprocessing
     ```
     
@@ -208,13 +206,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
 ## Running the models
 1) Once you have run the pre-processing steps you can run all the models in your terminal. Set the working directory to the TPC-LoS-prediction, and run the following:
 
-    ```
+    ```python
     python3 -m models.run_tpc
     ```
     
     Note that your experiment can be customised by using command line arguments e.g.
     
-    ```
+    ```python
     python3 -m models.run_tpc --dataset eICU --task LoS --model_type tpc --n_layers 4 --kernel_size 3 --no_temp_kernels 10 --point_size 10 --last_linear_size 20 --diagnosis_size 20 --batch_size 64 --learning_rate 0.001 --main_dropout_rate 0.3 --temp_dropout_rate 0.1 
     ```
     
@@ -224,19 +222,19 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/TPC-LoS-prediction
     
 2) The hyperparameter searches can be replicated by running:
 
-    ```
+    ```python
     python3 -m models.hyperparameter_scripts.eICU.tpc
     ```
  
     Trixi provides a useful way to visualise effects of the hyperparameters (after running the following command, navigate to http://localhost:8080 in your browser):
     
-    ```
+    ```python
     python3 -m trixi.browser --port 8080 models/experiments/hyperparameters/eICU/TPC
     ```
     
     The final experiments for the paper are found in models/final_experiment_scripts e.g.:
     
-    ```
+    ```python
     python3 -m models.final_experiment_scripts.eICU.LoS.tpc
     ```
     

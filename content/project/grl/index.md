@@ -1,5 +1,5 @@
 ---
-title: LSTM-GNN
+title: Predicting Patient Outcomes with LSTM-GNN
 summary: The LSTM-GNN model uses similarity between patients to obtain a better representation of the diagnosis information in the Electronic Health Record.
 tags:
 - Deep Learning
@@ -30,9 +30,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Predicting Patient Outcomes with Graph Representation Learning
-===============================
-
 ## Motivation
 Recent work on predicting patient outcomes in the Intensive Care Unit (ICU) has focused heavily on the physiological time series data, largely ignoring sparse data such as diagnoses and medications. When they are included, they are usually concatenated in the late stages of a model, which may struggle to learn from rarer disease patterns. Instead, we propose a strategy to exploit diagnoses as relational information by connecting similar patients in a graph. To this end, we propose LSTM-GNN for patient outcome prediction tasks: a hybrid model combining Long Short-Term Memory networks (LSTMs) for extracting temporal features and Graph Neural Networks (GNNs) for extracting the patient neighbourhood information. We demonstrate that LSTM-GNNs outperform the LSTM-only baseline on length of stay prediction tasks on the eICU database. More generally, our results indicate that exploiting information from neighbouring patient cases using graph neural networks is a promising research direction, yielding tangible returns in supervised learning performance on Electronic Health Records.
 
@@ -52,13 +49,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/eICU-GNN-LSTM
 
 4) In your terminal, navigate to the project directory, then type the following commands:
 
-    ```
+    ```sql
     psql 'dbname=eicu user=eicu options=--search_path=eicu'
     ```
     
     Inside the psql console:
     
-    ```
+    ```sql
     \i eICU_preprocessing/create_all_tables.sql
     ```
     
@@ -66,13 +63,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/eICU-GNN-LSTM
     
     To quit the psql console:
     
-    ```
+    ```sql
     \q
     ```
     
 5) Then run the pre-processing scripts in your terminal. This will need to run overnight:
 
-    ```
+    ```python
     python3 -m eICU_preprocessing.run_all_preprocessing
     ```
     
@@ -80,13 +77,13 @@ Clone the GitHub repository: https://github.com/EmmaRocheteau/eICU-GNN-LSTM
 
 To make the graphs, you can use the following scripts:
 
-```
+```python
 python3 -m graph_construction.create_graph --freq_adjust --penalise_non_shared --k 3 --mode k_closest
 ```
-```
+```python
 python3 -m graph_construction.bert
 ```
-```
+```python
 python3 -m graph_construction.create_bert_graph --k 3 --mode k_closest
 ```
 
@@ -101,7 +98,7 @@ Before proceeding to training the ML models, do the following.
 1) Define data_dir, graph_dir, log_path and ray_dir in `paths.json` to convenient locations.
 
 2) Run the following to unpack the processed eICU data into mmap files for easy loading during training. The mmap files will be saved in `data_dir`.
-    ```
+    ```python
     python3 -m src.dataloader.convert
     ```
 
@@ -120,50 +117,50 @@ N.B.
 ### a. LSTM-GNN
 The following runs the training and evaluation for LSTM-GNN models. `--gnn_name` can be set as `gat`, `sage`, or `mpnn`. When `mpnn` is used, add `--ns_sizes 10` to the command.
 
-```
+```python
 python3 -m train_ns_lstmgnn --bilstm --ts_mask --add_flat --class_weights --gnn_name gat --add_diag --read_best
 ```
 
 The following runs a hyperparameter search.
 
-```
+```python
 python3 -m src.hyperparameters.lstmgnn_search --bilstm --ts_mask --add_flat --class_weights  --gnn_name gat --add_diag
 ```
 
 ### b. Dynamic LSTM-GNN
 The following runs the training & evaluation for dynamic LSTM-GNN models. `--gnn_name` can be set as `gcn`, `gat`, or `mpnn`.
 
-```
+```python
 python3 -m train_dynamic --bilstm --random_g --ts_mask --add_flat --class_weights --gnn_name mpnn --read_best
 ```
 
 The following runs a hyperparameter search.
 
-```
+```python
 python3 -m src.hyperparameters.dynamic_lstmgnn_search --bilstm --random_g --ts_mask --add_flat --class_weights --gnn_name mpnn
 ```
 
 ### c. GNN
 The following runs the GNN models (with neighbourhood sampling). `--gnn_name` can be set as `gat`, `sage`, or `mpnn`. When `mpnn` is used, add `--ns_sizes 10` to the command.
 
-```
+```python
 python3 -m train_ns_gnn --ts_mask --add_flat --class_weights --gnn_name gat --add_diag --read_best
 ```
 
 The following runs a hyperparameter search.
 
-```
+```python
 python3 -m src.hyperparameters.ns_gnn_search --ts_mask --add_flat --class_weights --gnn_name gat --add_diag
 ```
 
 ### d. LSTM (Baselines)
 The following runs the baseline bi-LSTMs. To remove diagnoses from the input vector, remove `--add_diag` from the command.
-```
+```python
 python3 -m train_ns_lstm --bilstm --ts_mask --add_flat --class_weights --num_workers 0 --add_diag --read_best
 ```
 
 The following runs a hyperparameter search.
 
-```
+```python
 python3 -m src.hyperparameters.lstm_search --bilstm --ts_mask --add_flat --class_weights --num_workers 0 --add_diag
 ```
