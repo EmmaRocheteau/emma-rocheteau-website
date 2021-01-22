@@ -28,3 +28,5 @@ content:
 design:
   columns: '2'
 ---
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-5f8d77a1-c160-4d75-a780-a73ffb99060e"></div>
