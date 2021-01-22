@@ -3,7 +3,7 @@ title: ICUnity
 summary: An initiative to harmonise the MIMIC-III and AmsterdamUMCdb databases.
 tags:
 - Electronic Health Record Databases
-date: "2021-04-15T00:00:00Z"
+date: "2020-04-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
