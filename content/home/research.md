@@ -19,4 +19,7 @@ For example, for time series processing in Electronic Health Records (EHRs), I u
 
 I am also working on using graph neural networks to link the experiences of similar patients. The rationale is that when clinicians make decisions they will typically lean on their past experience, especially if they are dealing with a rare disease.
 
-I would be happy to discuss collaboration opportunities on similar topics – just send me an email!
+If you're interested in the kind of stuff I do, follow me on twitter!
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-5f8d77a1-c160-4d75-a780-a73ffb99060e"></div>
