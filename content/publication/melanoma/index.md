@@ -29,7 +29,7 @@ summary: Transfer learning with convolutional neural networks on the task of mel
 
 tags:
 - ML4MH
-featured: false
+featured: true
 
 links:
 - name: arXiv
