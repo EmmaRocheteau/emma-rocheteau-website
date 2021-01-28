@@ -10,7 +10,7 @@ summary: Cambridge Centre for AI in Medicine PhD Student Showcase
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-01-22T15:00:00Z"
+date: "2021-01-22T16:50:00Z"
 date_end: #"2021-01-22T15:10:00Z"
 all_day: false
 

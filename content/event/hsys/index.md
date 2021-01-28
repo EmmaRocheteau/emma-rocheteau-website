@@ -6,7 +6,7 @@ event_url: https://sites.google.com/view/hsys2020/papers/accepted-papers?authuse
 
 location: Online
 
-summary: 
+summary: HSYS Spotlight presentation at NeurIPS 2020
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
