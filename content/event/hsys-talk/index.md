@@ -1,12 +1,12 @@
 ---
 title: Predicting Length of Stay with Temporal Pointwise Convolutional Networks
 
-event: HSYS Spotlight presentation at NeurIPS 2020
+event: HSYS Spotlight at NeurIPS 2020
 event_url: https://sites.google.com/view/hsys2020/papers/accepted-papers?authuser=0
 
 location: Online
 
-summary: HSYS Spotlight presentation at NeurIPS 2020
+summary: HSYS Spotlight at NeurIPS 2020
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

@@ -1,12 +1,12 @@
 ---
 title: Predicting Patient Outcomes with Graph Representation Learning
 
-event: The 5th International Workshop on Health Intelligence (W3PHIAI-21) at AAAI 2021
+event: W3PHIAI-21 Spotlight at AAAI 2021
 event_url: http://w3phiai2021.w3phi.com/index.html
 
 location: Online
 
-summary: The 5th International Workshop on Health Intelligence (W3PHIAI-21) at AAAI 2021
+summary: W3PHIAI-21 Spotlight at AAAI 2021
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
