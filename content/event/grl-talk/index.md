@@ -1,21 +1,21 @@
 ---
-title: Predicting Length of Stay with Temporal Pointwise Convolutional Networks
+title: Predicting Patient Outcomes with Graph Representation Learning
 
-event: Cambridge Centre for AI in Medicine Inaugural Event
-event_url: https://www.eventbrite.co.uk/e/cambridge-centre-for-ai-in-medicines-inaugural-event-tickets-132026279155
+event: The 5th International Workshop on Health Intelligence (W3PHIAI-21) at AAAI 2021
+event_url: http://w3phiai2021.w3phi.com/index.html
 
 location: Online
 
-summary: Cambridge Centre for AI in Medicine PhD Student Showcase
+summary: The 5th International Workshop on Health Intelligence (W3PHIAI-21) at AAAI 2021
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-01-22T16:50:00Z"
+date: "2021-02-08T18:45:00Z"
 date_end: #"2021-01-22T15:10:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2021-01-01T00:00:00Z"
+publishDate: "2021-02-08T12:00:00Z"
 
 authors: []
 tags: []
@@ -31,7 +31,7 @@ links:
 - icon: youtube
   icon_pack: fab
   name: Watch the talk!
-  url: https://youtu.be/O4qo95xETVQ
+  url: https://youtu.be/Q_VrAYL8Tho
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
