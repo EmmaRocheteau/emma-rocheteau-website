@@ -7,7 +7,7 @@ widget: blank
 headless: true
 
 # Order that this section appears on the page.
-weight: 100
+weight: 90
 
 # Section title
 title: Awards
