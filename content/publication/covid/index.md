@@ -38,6 +38,7 @@ links:
   url: https://www.medrxiv.org/content/10.1101/2020.03.19.20039057v3
 url_pdf: https://www.medrxiv.org/content/10.1101/2020.03.19.20039057v3.full.pdf
 url_code: https://github.com/ariercole/Cambridge_COVID-19_ICU
+url_poster: "media/covid_poster.pdf"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

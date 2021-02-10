@@ -43,7 +43,8 @@ links:
   url: https://arxiv.org/abs/2101.03940
 url_pdf: https://arxiv.org/pdf/2101.03940.pdf
 url_code: https://github.com/EmmaRocheteau/eICU-GNN-LSTM
-url_poster: "media/covid_poster.pdf"
+url_slides: "media/grl_slides.pdf"
+url_video: https://www.youtube.com/watch?v=Q_VrAYL8Tho
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
