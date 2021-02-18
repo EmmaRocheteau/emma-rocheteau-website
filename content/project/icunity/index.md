@@ -19,7 +19,7 @@ links:
   url: https://github.com/EmmaRocheteau/ICUnity
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "media/icunity_slides.pdf"
 url_video: "https://www.youtube.com/watch?v=sboyFANExU8"
 url_poster: "media/icunity_poster.pdf"
 
