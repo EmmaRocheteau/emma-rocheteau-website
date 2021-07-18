@@ -32,7 +32,7 @@ tags:
 featured: true
 
 links:
-- name: arXiv
+- name: ACM Proceedings
   url: https://dl.acm.org/doi/10.1145/3450439.3451860
 url_pdf: https://dl.acm.org/doi/pdf/10.1145/3450439.3451860
 url_code: https://github.com/EmmaRocheteau/TPC-LoS-prediction
