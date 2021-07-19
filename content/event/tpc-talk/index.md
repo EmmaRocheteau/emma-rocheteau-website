@@ -1,5 +1,5 @@
 ---
-title: Predicting Length of Stay with Temporal Pointwise Convolutional Networks
+title: Predicting Length of Stay with Temporal Pointwise Convolution
 
 event: Cambridge Centre for AI in Medicine Inaugural Event
 event_url: https://www.eventbrite.co.uk/e/cambridge-centre-for-ai-in-medicines-inaugural-event-tickets-132026279155
