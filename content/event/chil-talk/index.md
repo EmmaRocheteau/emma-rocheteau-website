@@ -1,12 +1,12 @@
 ---
-title: Predicting Length of Stay with Temporal Pointwise Convolutional Networks
+title: Temporal Pointwise Convolutional Networks for Length of Stay Prediction in the Intensive Care Unit
 
 event: CHIL Conference
 event_url: https://www.chilconference.org/2021/highlights.html
 
 location: Online
 
-summary: CHIL Proceedings Paper Talk. The original talk can be viewed at 01:59:00 into Day 1 Proceedings. There is a Q&A immediately following the talk.
+summary: CHIL Proceedings Paper Talk. The original talk can be viewed at 01:59:00 into Day 1 Proceedings on the CHIL website. There is a Q&A immediately following the talk.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
