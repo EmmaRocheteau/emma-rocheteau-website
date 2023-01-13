@@ -72,8 +72,8 @@ email: "ecr38@cam.ac.uk"
 highlight_name: false
 ---
 
-I am a PhD student at the University of Cambridge working on machine learning problems for healthcare, supervised by Pietro Liò. I am part of the AI group in the computer science and technology department, but I am originally from a medical background (my medical studies are paused between the 4th and 5th years to allow me to complete this PhD).
+I am an MB/PhD student at the University of Cambridge working on machine learning problems for healthcare. During my PhD (2017-2021) I was part of the AI group in the computer science and technology department. I am now a final year medical student and I will become an (academic) foundation doctor in West Suffolk and Addenbrooke's Hospitals from next year.
 
-I have previously completed parts IA and IB (years 1 and 2) of the pre-clinical medical and veterinary sciences tripos, part IIA (intercalation year) of the engineering tripos and one year of clinical medicine (on the wards in the hospital setting). 
+I have previously intercalated in part IIA engineering.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}CV{{< /staticref >}}.
