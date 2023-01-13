@@ -27,12 +27,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Deep Learning (in progress)
-    institution: University of Cambridge
-    year: 2021
   - course: MB BChir (in progress)
     institution: University of Cambridge
-    year: 2017
+    year: 2023
+  - course: PhD in Deep Learning
+    institution: University of Cambridge
+    year: 2023
   - course: BA in Engineering/Preclinical Medicine
     institution: University of Cambridge
     year: 2016
