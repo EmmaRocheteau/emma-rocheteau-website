@@ -22,10 +22,17 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Co-founder and Teaching Lead
+    company: Society of AI in Medicine
+    company_url: 'https://www.cambridgesu.co.uk/organisation/aiinmedicine/'
+    date_start: '2021-10-01'
+    description: |2-
+        Society dedicated to learning about how AI is revolutionising healthcare.
   - title: Academic Director
     company: Institute for Medical AI
     company_url: 'https://www.instituteformedicalai.org/'
     date_start: '2020-08-01'
+    date_end: '2021-08-01'
     description: |2-
         Institute dedicated to advancing patient-centered care with medical AI.
   - title: Researcher Intern

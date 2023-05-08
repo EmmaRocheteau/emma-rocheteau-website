@@ -21,6 +21,5 @@ I am also working on using graph neural networks to link the experiences of simi
 
 If you're interested in the kind of stuff I do, follow me on twitter!
 
-
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-5f8d77a1-c160-4d75-a780-a73ffb99060e"></div>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-ebc8f9a3-22bb-419f-871f-44166a0b06fa"></div>

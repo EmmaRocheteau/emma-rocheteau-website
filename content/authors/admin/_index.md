@@ -30,9 +30,9 @@ education:
   - course: MB BChir (in progress)
     institution: University of Cambridge
     year: 2023
-  - course: PhD in Deep Learning
+  - course: PhD in Machine Learning for Healthcare
     institution: University of Cambridge
-    year: 2023
+    year: 2022
   - course: BA in Engineering/Preclinical Medicine
     institution: University of Cambridge
     year: 2016
@@ -72,7 +72,7 @@ email: "ecr38@cam.ac.uk"
 highlight_name: false
 ---
 
-I am an MB/PhD student at the University of Cambridge working on machine learning problems for healthcare. During my PhD (2017-2021) I was part of the AI group in the computer science and technology department. I am now a final year medical student and I will become an (academic) foundation doctor in West Suffolk and Addenbrooke's Hospitals from next year.
+I am an MB/PhD student at the University of Cambridge working on machine learning problems for healthcare. During my PhD (2017-2021) I was part of the AI group in the computer science department. I am now a final year medical student and I will become an (academic) foundation doctor in West Suffolk and Addenbrooke's Hospitals from next year.
 
 I have previously intercalated in part IIA engineering.
 

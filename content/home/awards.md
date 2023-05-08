@@ -13,9 +13,10 @@ weight: 90
 title: Awards
 ---
 
+- Best Paper Award, W3PHIAI Workshop at AAAI 2023
 - Eliot Slater Prize in Psychiatry, University of Cambridge, 2022
 - Finalist in the CSAR Awards, for the societal impact of my PhD, 2022
-- 2nd Runner-Up for Best Short Paper Award, W3PHIAI Workshop at AAAI 2021
+- Runner-Up for Best Short Paper Award, W3PHIAI Workshop at AAAI 2021
 - Best Talk Prize, Oxbridge Women in Computer Science Conference 2020
 - Best Poster Prize (49 submissions), 2nd HBP Student Conference 2018
 - AC Comfort Essay Prize, Royal Society of Medicine, 2017
