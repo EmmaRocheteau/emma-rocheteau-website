@@ -24,9 +24,6 @@ The work in this thesis sits in the space between medicine and machine learning 
 
 Specifically, in Chapter 3, I use clinical knowledge of the medical time series (namely that they are periodic signals with particular systematic biases) to improve upon the state-of-the-art in length of stay prediction (with additional investigations into mortality prediction). In Chapter 4, I am again inspired by knowledge of the clinical decision making process to propose a method using graph neural networks to leverage data from similar patients when predicting outcomes, providing important context for the predictions and interpretability opportunities. In Chapter 5, I delve further into the representation space, exploring the effect of auxiliary tasks on the performance of patient outcome models for mechanically ventilated patients. I then cluster the learned representations with the aim of discovering hidden patient phenotypes. The vision is ultimately to create robust and holistic patient representations which are suitable for deployment in the real-world.
 
-# Summary. An optional shortened abstract.
-summary: 
-
 tags:
 featured: false
 
