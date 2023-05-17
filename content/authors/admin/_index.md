@@ -6,7 +6,8 @@ title: Emma Rocheteau
 superuser: true
 
 # Role/position/tagline
-role: ML for Healthcare MB/PhD Student
+role: ML for Healthcare Researcher, 
+Final Year Medical Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -72,7 +73,7 @@ email: "ecr38@cam.ac.uk"
 highlight_name: false
 ---
 
-I am an MB/PhD student at the University of Cambridge working on machine learning problems for healthcare. During my PhD (2017-2021) I was part of the AI group in the computer science department. I am now a final year medical student and I will become an (academic) foundation doctor in West Suffolk and Addenbrooke's Hospitals from next year.
+I have recently graduated with a PhD from the University of Cambridge, where I worked on machine learning problems for healthcare as part of the AI group in the computer science department. I am also a final year medical student and I will become an (academic) foundation doctor in West Suffolk and Addenbrooke's Hospitals from August 2023.
 
 I have previously intercalated in part IIA engineering.
 

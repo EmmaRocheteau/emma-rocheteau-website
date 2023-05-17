@@ -13,7 +13,7 @@ weight: 30
 title: Research Interests
 ---
 
-My work has focused on predicting patient outcomes in the Intensive Care Unit (ICU). When designing my deep learning models, I am often inspired by my knowledge of clinical decision making.
+My work focuses on predicting patient outcomes in the Intensive Care Unit (ICU). When designing my deep learning models, I am often inspired by my knowledge of clinical decision making.
 
 For example, for time series processing in Electronic Health Records (EHRs), I use temporal and pointwise convolution to efficiently extract patient trajectories over time – a method inspired by clinicians.
 

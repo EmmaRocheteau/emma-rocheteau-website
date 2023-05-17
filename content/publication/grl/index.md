@@ -34,8 +34,8 @@ abstract: Recent work on predicting patient outcomes in the Intensive Care Unit 
 summary: Our model, LSTM-GNN, is designed to take advantage of similarity between patients in the EHR (established using the diagnoses). First, it processes the time series data for each patient with the LSTM component, before sharing information within the neighbourhood of patients via the GNN. This is an alternative way of presenting diagnoses information (the common approach is to use an encoder in the late stages of a model). We found that using both methods together gains the best performance.
 
 tags:
-- W3PHIAI-21
-- DLG-AAAI'21
+- W3PHIAI
+- DLG-AAAI
 featured: true
 
 links:
