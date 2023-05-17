@@ -31,7 +31,7 @@ tags:
 - AI4SG
 - W3PHIAI
 - R2HCAI
-featured: false
+featured: true
 
 links:
 - name: OpenReview
