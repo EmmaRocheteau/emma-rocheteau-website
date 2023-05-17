@@ -6,8 +6,7 @@ title: Emma Rocheteau
 superuser: true
 
 # Role/position/tagline
-role: ML for Healthcare Researcher, 
-Final Year Medical Student
+role: ML for Healthcare Researcher, Final Year Medical Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
